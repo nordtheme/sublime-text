@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Nord Sublime Text                                    +
-project    nord-sublime-text                                    +
-repository https://github.com/arcticicestudio/nord-sublime-text +
-version                                                         +
-author     Arctic Ice Studio                                    +
-email      development@arcticicestudio.com                      +
-copyright  Copyright (C) 2017                                   +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-[References]
-Sublime Text
+Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+Project:    Nord Sublime Text
+Repository: https://github.com/arcticicestudio/nord-sublime-text
+License:    MIT
+References
   https://www.sublimetext.com/docs/3/color_schemes.html
   https://www.sublimetext.com/docs/3/themes.html
   https://www.sublimetext.com/docs/3/scope_naming.html
 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
