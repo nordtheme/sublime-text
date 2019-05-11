@@ -111,7 +111,7 @@ References
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#4c566a</string>
+          <string>#616e88</string>
         </dict>
       </dict>
 
@@ -550,7 +550,7 @@ References
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#4c566a</string>
+          <string>#616e88</string>
         </dict>
       </dict>
       <dict>
@@ -1560,7 +1560,7 @@ References
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#4c566a</string>
+          <string>#616e88</string>
         </dict>
       </dict>
       <dict>
