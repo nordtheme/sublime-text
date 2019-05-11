@@ -1484,7 +1484,7 @@ References
           <key>foreground</key>
           <string>#5e81ac</string>
         </dict>
-      </dict>  
+      </dict>
       <dict>
         <key>name</key>
         <string>[XML] CDATA Tag</string>
@@ -1548,7 +1548,7 @@ References
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>lime</string>
+          <string>#00ff00</string>
         </dict>
       </dict>
 
