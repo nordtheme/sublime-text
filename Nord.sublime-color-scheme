@@ -1,0 +1,784 @@
+{
+    /**
+     * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+     * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+     *
+     * Project:    Nord Sublime Text
+     * Repository: https://github.com/arcticicestudio/nord-sublime-text
+     * License:    MIT
+     * References
+     *   https://www.sublimetext.com/docs/3/color_schemes.html
+     *   https://www.sublimetext.com/docs/3/themes.html
+     *   https://www.sublimetext.com/docs/3/scope_naming.html
+     */
+    "name": "Nord",
+    "author": "Arctic Ice Studio",
+    "variables":
+    {
+        "nord0": "#2e3440",
+        "nord2": "#434c5e",
+        "nord3": "#4c566a",
+        "lightgrey": "#616e88",
+        "nord4": "#d8dee9",
+        "nord6": "#eceff4",
+        "nord7": "#8fbcbb",
+        "nord8": "#88c0d0",
+        "nord9": "#81a1c1",
+        "nord10": "#5e81ac",
+        "nord11": "#bf616a",
+        "nord12": "#d08770",
+        "nord13": "#ebcb8b",
+        "nord14": "#a3be8c",
+        "nord15": "#b48ead"
+    },
+    "globals":
+    {
+        "foreground": "var(nord4)",
+        "background": "var(nord0)",
+        "accent": "var(nord8)",
+        "caret": "var(nord4)",
+        "invisibles": "var(nord3)",
+        "line_highlight": "color(var(nord2) alpha(0.32))",
+        "selection": "color(var(nord2) alpha(0.8))",
+        "selection_border": "color(var(nord2) alpha(0.8))",
+        "inactive_selection": "color(var(nord2) alpha(0.6))",
+        "misspelling": "var(nord11)",
+        "minimap_border": "color(var(nord2) alpha(0.32))",
+        "gutter_foreground": "color(var(nord4) alpha(0.4))",
+        "shadow": "var(nord0)",
+        "shadow_width": "8",
+        "guide": "color(var(nord2) alpha(0.7))",
+        "active_guide": "color(var(nord8) alpha(0.8))",
+        "stack_guide": "color(var(nord8) alpha(0.4))",
+        "highlight": "var(nord8)",
+        "find_highlight_foreground": "var(nord0)",
+        "find_highlight": "var(nord8)",
+        "brackets_options": "underline",
+        "brackets_foreground": "var(nord8)",
+        "tags_options": "underline",
+        "tags_foreground": "var(nord8)",
+        "line_diff_added": "var(nord14)",
+        "line_diff_modified": "var(nord13)",
+        "line_diff_deleted": "var(nord11)"
+    },
+    "rules":
+    [
+        {
+            "name": "[Comment] Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(lightgrey)"
+        },
+        {
+            "name": "[Constants] Numeric",
+            "scope": "constant.numeric",
+            "foreground": "var(nord15)"
+        },
+        {
+            "name": "[Constants] BuiltIn",
+            "scope": "constant.language",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Constants] Escape",
+            "scope": "constant.character.escape",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[Constants] Placeholder",
+            "scope": "constant.other.placeholder",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[Constants] Other",
+            "scope": "constant.other",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Entity] Class",
+            "scope": "entity.name.class",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Struct",
+            "scope": "entity.name.struct",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Enum",
+            "scope": "entity.name.enum",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Unions",
+            "scope": "entity.name.union",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Traits",
+            "scope": "entity.name.trait",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Interface",
+            "scope": "entity.name.interface",
+            "foreground": "var(nord7)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[Entity] Type",
+            "scope": "entity.name.type",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Entity] Inherited Class/Interface/Trait",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Function",
+            "scope": "entity.name.function",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Entity] Constructor",
+            "scope": "entity.name.function.constructor",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Entity] Destructor",
+            "scope": "entity.name.function.destructor",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Entity] Namespace",
+            "scope": "entity.name.namespace",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Entity] Constant",
+            "scope": "entity.name.constant",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Entity] Label/Goto",
+            "scope": "entity.name.label",
+            "foreground": "var(nord10)"
+        },
+        {
+            "name": "[Entity] Section",
+            "scope": "entity.name.section",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Entity] Tag",
+            "scope": "entity.name.tag",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Entity] Attribute Name",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Invalid] Illegal",
+            "scope": "invalid.illegal",
+            "foreground": "var(nord4)",
+            "background": "var(nord11)"
+        },
+        {
+            "name": "[Invalid] Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(nord4)",
+            "background": "var(nord13)"
+        },
+        {
+            "name": "[Keyword] Control",
+            "scope": "keyword.control",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Keyword] Control Conditional",
+            "scope": "keyword.control.conditional",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Keyword] Control Import",
+            "scope": "keyword.control.import",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Keyword] Punctuation Definition",
+            "scope": "punctuation.definition.keyword",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Keyword] Other",
+            "scope": "keyword.other",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Keyword] Operator",
+            "scope": "keyword.operator, keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.bitwise, keyword.operator.logical, keyword.operator.word",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Markup] Heading",
+            "scope": "markup.heading",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Markup] List",
+            "scope": "markup.list.unnumbered, markup.list.numbered",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Markup] Bold",
+            "scope": "markup.bold",
+            "font_style": "bold"
+        },
+        {
+            "name": "[Markup] Italic",
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Markup] Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[Markup] Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(nord11)"
+        },
+        {
+            "name": "[Markup] Changed",
+            "scope": "markup.changed",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[Markup] Quote",
+            "scope": "markup.quote",
+            "foreground": "var(lightgrey)"
+        },
+        {
+            "name": "[Markup] Raw",
+            "scope": "markup.raw.inline, markup.raw.block",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Markup] Other",
+            "scope": "markup.other",
+            "background": "var(nord6)"
+        },
+        {
+            "name": "[Punctuation] Separator/Terminator",
+            "scope": "punctuation.separator, punctuation.terminator",
+            "foreground": "var(nord6)"
+        },
+        {
+            "name": "[Punctuation] Separator Continuation/Accessor",
+            "scope": "punctuation.separator.continuation, punctuation.accessor",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Punctuation] Definition Tag",
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Storage] Type",
+            "scope": "storage.type, storage.modifier",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[String] Quoted/Unquoted",
+            "scope": "string.quoted.single, string.quoted.double, string.quoted.triple, string.quoted.other, string.unquoted",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[String] Punctuation Definition",
+            "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[String] RegExp",
+            "scope": "string.regexp",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[Support] Constant",
+            "scope": "support.constant",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Support] Function",
+            "scope": "support.function",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Support] Module",
+            "scope": "support.module",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Support] Type",
+            "scope": "support.type",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Support] Class",
+            "scope": "support.class",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Text] HTML/XML",
+            "scope": "text.html.basic, text.xml",
+            "foreground": "var(nord6)"
+        },
+        {
+            "name": "[Variable] Other/ReadWrite",
+            "scope": "variable.other, variable.other.readwrite",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Variable] Punctuation Definition",
+            "scope": "punctuation.definition.variable",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Variable] Constant",
+            "scope": "variable.other.constant",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Variable] Language",
+            "scope": "variable.language",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Variable] Parameter",
+            "scope": "variable.parameter",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Variable] Other Member",
+            "scope": "variable.other.member",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Variable] Function",
+            "scope": "variable.function",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Find Results] Gutter Number",
+            "scope": "constant.numeric.line-number.find-in-files",
+            "foreground": "color(var(nord4) alpha(0.4))"
+        },
+        {
+            "name": "[Find Results] Gutter Number Match",
+            "scope": "constant.numeric.line-number.match.find-in-files",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Find Results] Filename",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Find Results] Text",
+            "scope": "text.find-in-files",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[C/C++] Preprocessor/Include",
+            "scope": "source.c keyword.control.import.include.c, source.c meta.preprocessor.c keyword.control.import.c, source.c++ keyword.control.import.include.c++, source.c++ meta.preprocessor.c++ keyword.control.import.c++",
+            "foreground": "var(nord10)"
+        },
+        {
+            "name": "[C/C++] BuiltIn Function",
+            "scope": "source.c keyword.operator.word.c, source.c++ keyword.operator.word.c++",
+            "foreground": "var(nord8)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[CSS/Sass] Property Name",
+            "scope": "source.css support.type.property-name.css, source.sass support.type.property-name.sass, source.css support.type.vendor-prefix.css",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[CSS/Sass] RGB Value",
+            "scope": "source.css constant.other.color.rgb-value.css, source.sass constant.other.rgb-value.sass",
+            "foreground": "var(nord15)"
+        },
+        {
+            "name": "[CSS] Property Value",
+            "scope": "source.css support.constant.color.w3c-special-color-keyword.css, source.css support.constant.property-value.css, source.sass support.constant.property-value.sass",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[CSS] Pseudo Class",
+            "scope": "source.css entity.other.pseudo-class.css",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[CSS/Sass] At-Rule",
+            "scope": "source.css keyword.control.at-rule.media.css, source.css punctuation.definition.keyword.css, source.sass keyword.control.at-rule.sass",
+            "foreground": "var(nord12)"
+        },
+        {
+            "name": "[CSS] Color Names",
+            "scope": "source.css support.constant.color.w3c-standard-color-name.css",
+            "foreground": "var(nord9)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[CSS/Sass] ID",
+            "scope": "source.css entity.other.attribute-name.id.css, source.sass entity.other.attribute-name.id.sass",
+            "font_style": "bold"
+        },
+        {
+            "name": "[diff] Meta Range Context",
+            "scope": "source.diff meta.diff.range.context",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[diff] Meta Header From-File",
+            "scope": "source.diff meta.diff.header.from-file",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[diff] Punctuation Definition From-File",
+            "scope": "source.diff punctuation.definition.from-file",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[diff] Punctuation Definition Separator",
+            "scope": "source.diff punctuation.definition.separator",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Go] BuiltIn Function",
+            "scope": "source.go support.function.builtin.go",
+            "font_style": "italic"
+        },
+        {
+            "name": "[HTML] Entity",
+            "scope": "text.html.basic constant.character.entity.html",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[Java] Annotation",
+            "scope": "variable.annotation.java, punctuation.definition.annotation.java",
+            "foreground": "var(nord12)"
+        },
+        {
+            "name": "[Java] Punctuation",
+            "scope": "punctuation.accessor.dot.java",
+            "foreground": "var(nord6)"
+        },
+        {
+            "name": "[Java] Package",
+            "scope": "support.other.package.java",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Java] JavaDoc Comment Block Documentation HTML Entities",
+            "scope": "source.java comment.block.documentation.javadoc punctuation.definition.entity.html",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Java] Constant",
+            "scope": "source.java entity.name.constant",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Java] JavaDoc Tags",
+            "scope": "source.java keyword.other.documentation, source.java comment.block.documentation.javadoc punctuation.definition.keyword.javadoc",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Java] Generic",
+            "scope": "source.java variable.parameter.type.java",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Java] Interface",
+            "scope": "source.java entity.other.inherited-class.java",
+            "foreground": "var(nord7)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[Java] Implements Keyword",
+            "scope": "source.java keyword.declaration.implements.java",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[JSON] Key",
+            "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.key.json string.quoted.double.json, source.json.sublime meta.structure.dictionary.json meta.structure.dictionary.key.json string.quoted.double.json",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[JSON] Quote Punctuation",
+            "scope": "source.json meta.structure.dictionary.json punctuation.definition.string.begin.json, source.json meta.structure.dictionary.json punctuation.definition.string.end.json, source.json.sublime meta.structure.dictionary.json punctuation.definition.string.begin.json, source.json.sublime meta.structure.dictionary.json punctuation.definition.string.end.json",
+            "foreground": "var(nord6)"
+        },
+        {
+            "name": "[Markdown] Fenced Code Block",
+            "scope": "text.html.markdown punctuation.definition.raw.code-fence.begin.markdown, text.html.markdown punctuation.definition.raw.code-fence.end.markdown, text.html.markdown markup.raw.code-fence.markdown constant.other.language-name.markdown",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Markdown] List Bullet",
+            "scope": "text.html.markdown punctuation.definition.list_item.markdown, text.html.markdown markup.list.numbered.bullet.markdown",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Markdown] Quote Punctuation",
+            "scope": "text.html.markdown markup.quote.markdown punctuation.definition.blockquote.markdown",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "text.html.markdown meta.link.inline.description.markdown, text.html.markdown meta.image.inline.description.markdown, text.html.markdown meta.link.reference.description.markdown, text.html.markdown constant.other.reference.link.markdown, text.html.markdown entity.name.reference.link.markdown",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Markdown] Link Punctuation",
+            "scope": "text.html.markdown punctuation.definition.link.begin.markdown, text.html.markdown punctuation.definition.link.end.markdown, text.html.markdown punctuation.definition.image.begin.markdown, text.html.markdown punctuation.definition.image.end.markdown, text.html.markdown punctuation.definition.constant.begin.markdown, text.html.markdown punctuation.definition.constant.end.markdown",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Markdown] Table Punctuation",
+            "scope": "text.html.markdown punctuation.separator.table-cell.markdown, text.html.markdown punctuation.section.table-header.markdown",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Markdown] Table Header",
+            "scope": "text.html.markdown meta.table.header.markdown",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Markdown] Horizontal Line",
+            "scope": "text.html.markdown punctuation.definition.thematic-break.markdown",
+            "foreground": "var(nord9)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[PHP] Embedded Tag",
+            "scope": "embedding.php text.html.basic punctuation.section.embedded.begin.php, embedding.php text.html.basic punctuation.section.embedded.end.php",
+            "foreground": "var(nord10)"
+        },
+        {
+            "name": "[PHP] PHPDoc Tag",
+            "scope": "embedding.php text.html.basic comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[PHP] Namespace",
+            "scope": "embedding.php text.html.basic support.other.namespace.php",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Python] Decorator",
+            "scope": "source.python meta.annotation.python meta.qualified-name.python support.function.builtin.python, source.python punctuation.definition.annotation.python",
+            "foreground": "var(nord12)"
+        },
+        {
+            "name": "[Python] BuiltIn Function",
+            "scope": "support.function.builtin.python",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Python] Exception",
+            "scope": "source.python support.type.exception.python",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Python] Type",
+            "scope": "source.python support.type.python",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Sass] Variable",
+            "scope": "source.sass variable.parameter.sass",
+            "foreground": "var(nord4)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[Ruby] BuiltIn Function",
+            "scope": "source.ruby support.function.builtin.ruby",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Shell] BuiltIn Function",
+            "scope": "source.shell support.function.builtin.shell",
+            "font_style": "italic"
+        },
+        {
+            "name": "[XML] Namespace",
+            "scope": "text.xml entity.name.tag.namespace",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[XML] Doctype/Preprocessor",
+            "scope": "text.xml meta.tag.sgml.doctype.xml, text.xml meta.tag.preprocessor entity.name.tag, text.xml meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml, text.xml meta.tag.preprocessor.xml punctuation.definition.tag.end.xml, text.xml meta.tag.sgml.doctype.xml punctuation.definition.tag.begin.xml, text.xml meta.tag.sgml.doctype.xml punctuation.definition.tag.end.xml",
+            "foreground": "var(nord10)"
+        },
+        {
+            "name": "[XML] CDATA Tag",
+            "scope": "text.xml string.unquoted.cdata.xml punctuation.definition.string.begin.xml, text.xml string.unquoted.cdata.xml punctuation.definition.string.end.xml",
+            "foreground": "var(nord12)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[YAML] Entity Name Tag",
+            "scope": "source.yaml entity.name.tag",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[SublimeLinter] Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[SublimeLinter] Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(nord11)"
+        },
+        {
+            "name": "[SublimeLinter] Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[GitGutter] Ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(lightgrey)"
+        },
+        {
+            "name": "[GitGutter] Untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[GitGutter] Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[GitGutter] Changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(nord13)"
+        },
+        {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(nord11)"
+        },
+        {
+            "name": "[Babel] Decorator",
+            "scope": "source.js tag.decorator.js entity.name.tag.js, source.js tag.decorator.js punctuation.definition.tag.js",
+            "foreground": "var(nord12)"
+        },
+        {
+            "name": "[Babel] String (Interpolated/Template Expression)",
+            "scope": "source.js string.quoted.js, source.js string.quoted.jsx, source.js meta.class.js meta.class.property.js string.interpolated.js, source.js string.interpolated.js, source.js string.template.js",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[Babel] Constant",
+            "scope": "source.js variable.other.constant.js",
+            "foreground": "var(nord4)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[Babel] Object Key/Variable",
+            "scope": "source.js constant.other.object.key.js string.unquoted.label.js, source.js variable.other.readwrite.js",
+            "foreground": "var(nord4)"
+        },
+        {
+            "name": "[Babel] Arrow Function",
+            "scope": "source.js meta.class.js meta.class.property.js variable.other.property.js",
+            "foreground": "var(nord8)"
+        },
+        {
+            "name": "[Babel] Static Variable",
+            "scope": "source.js variable.other.property.static.js",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Babel] Class",
+            "scope": "source.js variable.other.class.js",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[Babel] String Interpolated/Template Expression Keyword",
+            "scope": "source.js string.interpolated.js keyword.other.substitution.begin.js, source.js string.interpolated.js keyword.other.substitution.end.js, source.js punctuation.definition.template-expression.begin.js, source.js punctuation.definition.template-expression.end.js",
+            "foreground": "var(nord10)"
+        },
+        {
+            "name": "[Babel] Spread Operator",
+            "scope": "source.js keyword.operator.spread.js",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[Babel] Export",
+            "scope": "source.js meta.export.js variable.other.readwrite.js",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[TypeScript] Inherited Class",
+            "scope": "source.ts meta.class.ts entity.other.inherited-class.ts",
+            "foreground": "var(nord7)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[TypeScript] Class/Enum",
+            "scope": "source.ts entity.name.type.class.ts, source.ts entity.name.type.enum.ts",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[TypeScript] Type",
+            "scope": "source.ts entity.name.type.ts",
+            "foreground": "var(nord7)"
+        },
+        {
+            "name": "[TypeScript] Primitive",
+            "scope": "source.ts support.type.primitive.ts",
+            "foreground": "var(nord9)"
+        },
+        {
+            "name": "[TypeScript] Decorator",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.decorator.ts variable.other.readwrite.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.decorator.ts punctuation.decorator.ts",
+            "foreground": "var(nord12)"
+        },
+        {
+            "name": "[TypeScript] Interpolated String Keyword",
+            "scope": "source.ts punctuation.definition.template-expression.begin.ts, source.ts punctuation.definition.template-expression.end.ts",
+            "foreground": "var(nord10)"
+        },
+        {
+            "name": "[TypeScript] Interpolated String",
+            "scope": "source.ts string.template.ts",
+            "foreground": "var(nord14)"
+        },
+        {
+            "name": "[TypeScript] Static Support Function",
+            "scope": "source.ts support.function.math.ts",
+            "font_style": "italic"
+        },
+        {
+            "name": "[TypeScript] Constant",
+            "scope": "source.ts variable.other.constant.property.ts, source.ts variable.other.enummember.ts, source.ts variable.other.constant.ts",
+            "foreground": "var(nord4)",
+            "font_style": "bold"
+        },
+        {
+            "name": "[TypeScript] JSDoc Tag",
+            "scope": "source.ts comment.block.documentation.ts storage.type.class.jsdoc",
+            "foreground": "var(nord7)"
+        }
+    ]
+}
