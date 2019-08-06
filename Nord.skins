@@ -1,7 +1,7 @@
 {
   "Nord": {
     "Preferences": {
-      "color_scheme": "Packages/nord-sublime-text/Nord.tmTheme"
+      "color_scheme": "Packages/nord-sublime-text/Nord.sublime-color-scheme"
     }
   }
 }
