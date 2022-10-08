@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/repository-hero.svg?sanitize=true"/></a></p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-sublime-text/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-sublime-text.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/sublime-text" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-sublime-text.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a> <a href="https://github.com/arcticicestudio/nord-sublime-text/blob/develop/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-sublime-text.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
@@ -12,7 +12,7 @@
 
 <p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette.</p>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/editor-overview-go.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/editor-overview-go.png"/></a></p>
 
 Supports many bundled languages and third-party syntax plugins.
 
@@ -31,10 +31,10 @@ Please follow the [official installation instructions][pc-install] to set up _pa
 > Nord makes use of the new [`.sublime-color-scheme` JSON file format][sbt-docs-color_schemes] that has been introduced in Sublime Text [version 3.1.0 Build 3170][sbt-blog-announce-v3.1] and is therefore the minimum required and supported version. The `.tmTheme` XML file format][sbt-docs-tmtheme] has been officially deprecated by the Sublime Text team and is not supported by Nord anymore.
 
 <p align="center">Open the _package installation_ view through the <a href="http://docs.sublimetext.info/en/latest/extensibility/command_palette.html" target="_blank">command palette</a> via <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> and run the „Package Control: Install Package“ command.</p>
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/ui-package-control-install-command.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/ui-package-control-install-command.png"/></p>
 
 <p align="center">Search for „Nord“ and press <kbd>⏎</kbd> _Enter_ to install the theme.</p>
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/ui-package-control-list-installed.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/ui-package-control-list-installed.png"/></p>
 
 See _Nord Sublime Text_'s documentation for details about more installation options like a [manual import through a local `.sublime-package` file][nord-docs-home-install#manual].
 
@@ -42,7 +42,7 @@ See _Nord Sublime Text_'s documentation for details about more installation opti
 
 To activate the _Nord_ color theme, open the [command palette][sbt-udocs-cmdp] via <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> and run the „UI: Select Color Theme“ command or use the _Preferences_ ➜ _Color Theme…_ menu.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/ui-color-theme-select.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/ui-color-theme-select.png"/></p>
 
 See _Nord Sublime Text_'s documentation for [more details about the activation][nord-docs-home-install#activation].
 
@@ -50,15 +50,15 @@ See _Nord Sublime Text_'s documentation for [more details about the activation][
 
 <div align="center"><p><strong>Your IDE. Your style.</strong></p><p>The unified UI and editor syntax element design provides a clutter-free and fluidly merging appearance.</p></div>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text#introduction"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/ui-overview-go.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text#introduction"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/ui-overview-go.png"/></a></p>
 
 <div align="center"><p><strong>Beautiful code to keep focused.</strong></p><p>The editor color scheme supports a wide range of programming languages — From bundled definitions up to many popular third-party syntax packages.</p></div>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text#syntax"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/editor-syntax-go-comments.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text#syntax"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/editor-syntax-go-comments.png"/></a></p>
 
 <div align="center"><p><strong>Small details with unobtrusive styles.</strong></p><p>Popular and common code editor features like search result marker and brace matching are designed to get out of your way with a visually attractive appearance.</p></div>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text#editor-details"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/sublime-text/editor-brace-matching.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/sublime-text#editor-details"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/editor-brace-matching.png"/></a></p>
 
 ## Contributing
 
@@ -70,7 +70,7 @@ Please take a moment to read Nord's full [contributing guide][nord-contrib-guide
 
 The guide also includes information about [minimal, complete, and verifiable examples][nord-contrib-guide-mcve] and other ways to contribute to the project like [improving existing issues][nord-contrib-guide-impr-issues] and [giving feedback on issues and pull requests][nord-contrib-guide-feedback].
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-footer-separator.svg?sanitize=true" /></p>
 
 <p align="center">Copyright &copy; 2016-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
 
