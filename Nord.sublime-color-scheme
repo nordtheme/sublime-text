@@ -1,18 +1,15 @@
 {
   /**
-   * Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-   * Copyright (C) 2017-present Sven Greb <development@svengreb.de>
+   * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+   * This source code is licensed under the MIT license found in the license file.
    *
-   * Project:    Nord Sublime Text
-   * Repository: https://github.com/arcticicestudio/nord-sublime-text
-   * License:    MIT
    * References
-   *   https://www.sublimetext.com/docs/3/color_schemes.html
-   *   https://www.sublimetext.com/docs/3/scope_naming.html
-   *   https://www.sublimetext.com/docs/3/color_schemes_tmtheme.html
+   *   1. https://www.sublimetext.com/docs/3/color_schemes.html
+   *   2. https://www.sublimetext.com/docs/3/scope_naming.html
+   *   3. https://www.sublimetext.com/docs/3/color_schemes_tmtheme.html
    */
   "name": "Nord",
-  "author": "Arctic Ice Studio",
+  "author": "Sven Greb",
   "variables": {
     "nord0": "#2e3440",
     "nord1": "#3b4252",
