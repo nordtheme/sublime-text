@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.nordtheme.com/ports/sublime-text" target="_blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/sublime-text/repository-hero.svg?sanitize=true" width="100%" />
+      <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/sublime-text/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/sublime-text/repository-hero.svg?sanitize=true" width="100%" />
     </picture>
   </a>
 </p>
@@ -185,7 +185,7 @@ The now [officially deprecated `.tmTheme` color scheme format file][pc-docs-tmth
 
 [gh-21]: https://github.com/nordtheme/sublime-text/issues/21
 [gh-user-kaine119]: https://github.com/kaine119
-[nord-docs#171]: https://github.com/arcticicestudio/nord-docs/issues/171
+[nord-docs#171]: https://github.com/nordtheme/web/issues/171
 [nord#55]: https://github.com/nordtheme/nord/issues/55
 [nord#94]: https://github.com/nordtheme/nord/issues/94
 [sbt-blog-announce-v3.1]: https://www.sublimetext.com/blog/articles/sublime-text-3-point-1
