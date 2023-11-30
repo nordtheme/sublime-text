@@ -56,6 +56,7 @@
     "brackets_foreground": "var(nord8)",
     "brackets_options": "underline",
     "caret": "var(nord_text)",
+    "block_caret": "color(var(nord_text) alpha(0.5))",
     "find_highlight_foreground": "var(nord0)",
     "find_highlight": "var(nord8)",
     "foreground": "var(nord_text)",
